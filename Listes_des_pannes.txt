@@ -1,0 +1,10 @@
+P1:Batterie dechargee
+P2:Problemes de demarrage
+P3:Surchauffe du moteur
+P4:Fuite de liquides 
+P5:Problemes de transmission
+P6:Problemes de freins 
+P7:Alternateur defectueux
+P8:Problemes electriques 
+P9:Dysfonctionnement du systeme de climatisation
+P10:Problemes de direction 
