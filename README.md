@@ -2,56 +2,38 @@
 # Fonctions de base
 # Fonctions hors scope
 
-Here's a basic documentation template for the provided code:
+# VacayCar Management System
 
-Project Name: VacayCar Management System
-Overview
-The VacayCar Management System is a console-based application written in C that facilitates the management of users, cars, leasing, repairs, and maintenance of vehicles.
+This project is a car rental management system developed in C. It allows users to manage cars, leasing, repairs, and user accounts.
 
-Table of Contents
-Introduction
-Features
-Installation
-Usage
-Contributing
-License
-Introduction<a name="introduction"></a>
-The VacayCar Management System is designed to streamline the operations of a car rental and leasing service. It allows administrators and users to perform various tasks related to managing vehicles, leasing, tracking repairs, and more.
+## Overview
 
-Features<a name="features"></a>
-User Management
-Add new users with unique IDs, names, types (e.g., Admin, Super Admin), and passwords.
-Remove users based on their ID.
-Vehicle Management
-Add new vehicles with unique IDs, brands, models, fuel types, seating capacity, transmission types, daily rental prices, and availability status.
-Remove vehicles based on their ID.
-Modify vehicle details such as rental price and availability.
-Search for vehicles by brand and availability.
-Sort vehicles by brand and daily rental price.
-Leasing
-View a list of vehicles available for leasing.
-Lease a vehicle by entering its ID.
-Maintenance and Repairs
-Record vehicle breakdowns and repairs.
-Modify repair details such as repair cost.
-View the history of repairs for each vehicle.
-Estimate the total repair cost based on previous repairs.
-Installation<a name="installation"></a>
-Clone the repository to your local machine.
-Compile the source code using a C compiler (e.g., GCC).
-Run the compiled executable to start the VacayCar Management System.
-Usage<a name="usage"></a>
-Launch the application.
-Log in using your username and password.
-Navigate through the menu options to perform various tasks such as managing users, vehicles, leasing, and repairs.
-Follow the on-screen prompts to enter information and make selections.
-Contributing<a name="contributing"></a>
-Contributions to the VacayCar Management System are welcome. You can contribute by:
+The project includes functionalities for managing users, cars, leasing, and repairs. Users can perform various tasks depending on their roles, such as adding, modifying, and deleting cars, managing leasing agreements, handling car repairs, and managing user accounts.
 
-Reporting bugs and issues.
-Suggesting new features and enhancements.
-Providing code improvements and optimizations.
-To contribute, fork the repository, make your changes, and submit a pull request.
+## Features
 
-License<a name="license"></a>
-This project is licensed under the MIT License. See the LICENSE file for more details.
+- **User Management**: Add, modify, and delete user accounts. Users are classified into different roles such as admin, super admin, etc.
+- **Car Management**: Perform operations related to cars such as adding, modifying, and deleting cars. Cars can be rented, and their availability can be tracked.
+- **Leasing**: Manage leasing agreements, including listing cars available for leasing, checking remaining credit, and viewing completed lease agreements.
+- **Repair Management**: Track car repair history, view repair details, and estimate repair costs.
+- **Data Persistence**: The system ensures data persistence by storing user, car, and repair information in files, allowing data to be retained between program executions.
+
+## Usage
+
+1. **Compilation**: Compile the program using a C compiler. 
+  2.**Execution**: Run the compiled executable.
+
+3. **Main Menu**: Upon execution, the program displays the main menu, allowing users to navigate different functionalities.
+
+4. **Select Options**: Choose options from the menu to perform specific tasks such as managing cars, leasing, repairs, etc.
+## Requirements
+
+- C Compiler (e.g., GCC)
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
